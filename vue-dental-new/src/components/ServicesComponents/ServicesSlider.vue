@@ -68,6 +68,20 @@ export default {
 </script>
 
 <style>
+
+.slider-body{
+  padding-left: calc(2vh + 4vw);
+  width: 80%;
+}
+
+.slider-body-line{
+  text-align: left;
+}
+
+.home-slider-container{
+  font-size: 1.3rem
+}
+
 .slide-fade-enter-active {
   transition: all .3s ease;
 }
@@ -138,18 +152,6 @@ export default {
 /* .slide-fade-leave-active below version 2.1.8 */ {
   transform: translateX(10px);
   opacity: 0;
-}
-
-.slider-body{
-  width: 100%;
-}
-
-.slider-body-line{
-  text-align: left;
-}
-
-.home-slider-container{
-  font-size: 1.3rem
 }
 
 </style>

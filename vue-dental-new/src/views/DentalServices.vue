@@ -25,22 +25,23 @@ export default {
 
 <style>
 .dark-background{
-  position: absolute;
   margin-top: 10%;
-  left: -10px;
   height: 180px;
-  width: 110%;
+  width: 100%;
   z-index: -1;
   background-color: rgb(33, 31, 48)
 }
 .services-body{
+  left: 0;
   position: absolute;
-  width: 99vw;
+  width: 100vw;
   margin-top: 24vh;
   z-index: -1;
 }
 .services-slider-container {
   position: absolute;
+  top: 0;
+  right: 0;
   margin-top: calc(5vh + 5vw);
   margin-left: 46%;
   width: 60%;
@@ -50,9 +51,10 @@ export default {
 }
 .services-animation-container {
   position: absolute;
+  top: 0;
   float: left;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 @media only screen and (min-width: 560px) {
@@ -69,10 +71,27 @@ export default {
     padding-top: 20px;
   }
   .message-one{
-    font-size: 2.3rem;
+    font-size: 1.2rem;
   }
   .message-two{
-    font-size: 2.3rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .home-slider-container{
+    margin-top: calc(10vh + 10vw)
+  }
+  .slider-body{
+    padding-left: 10%;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .message-one{
+    font-size: 1.6rem;
+  }
+  .message-two{
+    font-size: 1.6rem;
   }
 }
 

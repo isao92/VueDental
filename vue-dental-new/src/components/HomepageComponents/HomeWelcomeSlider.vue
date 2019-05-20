@@ -93,11 +93,11 @@ export default {
 }
 
 .message-one{
-  font-size: 3vw;
+  font-size: 2.6vw;
 }
 
 .message-two{
-  font-size: 2.8vw;
+  font-size: 2.6vw;
 }
 
 .slide-fade-enter-active {

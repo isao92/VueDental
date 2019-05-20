@@ -127,5 +127,10 @@ export default {
     stroke-dashoffset: 0;
   }
 }
-
+@media only screen and (min-width: 1024px) {
+  .name-container{
+    font-size: 2.3rem;
+    top: 60vh;
+  }
+}
 </style>
